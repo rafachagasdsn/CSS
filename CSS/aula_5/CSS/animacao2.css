@@ -1,0 +1,61 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    background-color: gray;
+}
+
+h1 {
+    margin-bottom: 50px;
+    color: #333; 
+}
+
+.bandeira {
+    position: relative;
+    width: 600px;
+    height: 400px;
+    overflow: hidden;
+    border: 1px solid #ccc;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+.faixa {
+    position: absolute;
+    bottom: 0;
+    height: 0;
+    width: 33.33%;
+    animation-name: subir-faixa;
+    animation-duration: 1.5s;
+    animation-timing-function: ease-out;
+    animation-fill-mode: forwards;
+}
+
+.azul {
+    left: 0;
+    background-color: #002395; 
+    animation-delay: 0s;
+}
+
+.branca {
+    left: 33.33%; 
+    background-color: #FFFFFF; 
+    animation-delay: 0.5s; 
+}
+
+.vermelha {
+    left: 66.66%; 
+    background-color: #ED2939; 
+    animation-delay: 1s;
+}
+
+@keyframes subir-faixa {
+    from {
+        height: 0;
+    }
+    to {
+        height: 100%;
+    }
+}

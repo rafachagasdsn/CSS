@@ -1,0 +1,62 @@
+body {
+    display: flex;
+    flex-direction: column ;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    background-color: white;
+
+}
+
+h1 {
+    margin-bottom: 50px;
+    color: #333;
+}
+
+.bandeira {
+    position: relative;
+    width: 600px;
+    height: 400px;
+    overflow: hidden;
+    border: 1px solid #ccc;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+.faixa {
+    position: absolute;
+    animation-name: desdobrar-faixa;
+    animation-duration: 2s; 
+    animation-timing-function: ease-out;
+    animation-fill-mode: forwards; 
+}
+
+.amarela {
+    background-color: yellow; 
+    height: 50%; 
+    animation-delay: 0s; 
+}
+
+.azul {
+    top: 50%; 
+    background-color: blue; 
+    height: 25%; 
+    animation-delay: 0.5s; 
+}
+
+.vermelha {
+    top: 75%; 
+    background-color: red;
+    height: 25%; 
+    animation-delay: 1s; 
+}
+
+
+@keyframes desdobrar-faixa {
+    from {
+        width: 0; 
+    }
+    to {
+        width: 100%; 
+    }
+}

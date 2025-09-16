@@ -1,0 +1,18 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+    margin: 0;
+}
+
+.quarto-circulo {
+    width: 200px;
+    height: 200px;
+    background-color: blue;
+    border-top-right-radius: 100%;
+    border-right: 10px solid darkblue;
+    border-top: 10px;
+
+}

@@ -1,0 +1,12 @@
+.teste, #teste1, p {
+    color: red;
+}
+
+.texto-amarelo, .fundo-verde {
+    color: yellow;
+
+}
+
+.p[id]  {
+    color: brown;
+}

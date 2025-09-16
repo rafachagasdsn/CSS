@@ -1,0 +1,16 @@
+.marrom, span {
+
+    color: brown;
+}
+
+.texto-amarelo,
+.fundo-verde {
+    color: yellow;
+    background-color: green;
+
+}
+
+.p  [id] {
+
+    color: red;
+}

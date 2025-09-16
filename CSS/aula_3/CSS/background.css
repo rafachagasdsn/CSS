@@ -1,0 +1,22 @@
+   body {
+       /* Adicionei a fonte aqui para que ela seja aplicada ao body e a um gradiente de fundo */
+       font-family: "Quicksand", sans-serif;
+       margin: 0;
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       min-height: 100vh;
+   }
+
+   #grad1 {
+       height: 400px;
+       width: 80%;
+       background-image: linear-gradient(to bottom, rgb(0, 0, 0), rgb(255, 0, 0));
+       border-radius: 12px;
+       box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+   }
+
+div{
+    width: 500px; height: 200px;
+}
+

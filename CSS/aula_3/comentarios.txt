@@ -1,0 +1,50 @@
+/* Estilos aplicados ao corpo da página. Centraliza a tabela e define a fonte. */
+body {
+    font-family: Arial, sans-serif; /* Define a família da fonte */
+    display: flex; /* Habilita o Flexbox para alinhamento */
+    justify-content: center; /* Centraliza horizontalmente o conteúdo */
+    align-items: center; /* Centraliza verticalmente o conteúdo */
+    height: 100vh; /* Define a altura total da tela */
+    background-color: #f4f4f4; /* Cor de fundo suave para a página */
+    margin: 0; /* Remove a margem padrão do navegador */
+}
+
+/* Estilos para o elemento principal da tabela */
+table {
+    border-collapse: collapse; /* Remove o espaçamento entre as células */
+    width: 100%; /* Ocupa a largura total do container */
+    max-width: 650px; /* Limita a largura máxima da tabela */
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1); /* Adiciona uma sombra suave */
+}
+
+/* Estilos para a célula de cabeçalho principal (<th>) */
+th {
+    background-color: #113669; /* Cor de fundo azul escuro */
+    color: white; /* Cor do texto branca */
+    font-weight: bold; /* Deixa o texto em negrito */
+    font-size: 1.1em; /* Tamanho da fonte */
+    padding: 15px; /* Espaçamento interno */
+    text-align: center; /* Alinhamento do texto ao centro */
+}
+
+/* Estilos para o "span" dentro do "th", especificamente para o texto da estimativa */
+th span {
+    display: block; /* Ocupa uma linha inteira */
+    font-size: 0.8em; /* Fonte menor */
+    font-weight: normal; /* Remove o negrito herdado do <th> */
+    font-style: italic; /* Texto em itálico */
+    margin-top: 5px; /* Adiciona uma pequena margem superior */
+    color: #b0c4de; /* Cor do texto azul claro */
+}
+
+/* Estilos para todas as células de dados (<td>) */
+td {
+    border: 1px solid #ddd; /* Borda fina e cinza */
+    padding: 12px; /* Espaçamento interno */
+    text-align: left; /* Alinhamento do texto à esquerda */
+}
+
+/* Estilos para as células de dados dentro da linha de cabeçalho secundário */
+.header-row td {
+    background-color: #5587ba; /* Cor de fundo azul um pouco mais claro */
+    color: white; /* Cor do texto branca */

@@ -1,0 +1,50 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+}
+
+.container {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 10px;
+    width: 90%;
+    max-width: 700px;
+    text-align: center;
+}
+
+h1 {
+    color: black;  
+}
+
+p {
+    color: gray;
+}
+
+.grafico-barras {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.barra {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 40px;
+    border-radius: 20px;
+    padding: 0 15px;
+    color: white;
+    box-shadow: inset0 2px 5px rgba (0, 0, 0, 0.2);
+    animation: grow 2s ease-out forwards;
+    width: 0;
+}
+
+.strogonoff {
+    background: linear-gradient(to right orange, #feb47b);
+}

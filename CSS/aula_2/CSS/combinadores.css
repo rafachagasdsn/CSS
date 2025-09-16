@@ -1,0 +1,66 @@
+.cortexto {
+    color: red;
+}
+
+.cortexto2 {
+    color: rgb(47, 0, 255);
+}
+
+.corTitulo {
+    color: black;
+}
+
+.corTextoPai {
+    color: rgb(183);
+}
+
+/* Combinador de descendente */
+div h1 {
+    color: purple;
+}
+
+/* Combinador de filho */
+div > p {
+    color: aqua;
+}
+
+/* Combinador de irmão geral */
+h2 ~ p {
+    color: blue;
+}
+
+/* Combinador de irmão adjacente */
+h2 + p {
+    color: green;
+}
+
+/*  
+p {
+    background-color: blueviolet;
+}
+
+/* Pseudo-classes */
+a:visited {
+    color: orange;
+}
+
+a:hover {
+    background-color: green;
+}
+
+a:active {
+    background: red;
+}
+
+/* Pseudo-elementos */
+h2::before {
+    content: "🚀"; /* Conteúdo de exemplo mais simples */
+}
+
+.texto::first-line {
+    text-transform: uppercase;
+}
+
+.texto::first-letter {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
